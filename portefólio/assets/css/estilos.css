@@ -235,6 +235,7 @@ header {
 /* SESSÃO ABOUT - SOBRE MIM*/
 .about{
     min-height: 60vh;
+    padding-top: 50px;
 }
 
 .about-text p {
@@ -606,6 +607,7 @@ AO MEIO DA TELA AO CLICAR EM "VER MAIS" */
     flex-direction: column;
     gap: 16px;
     margin-top: 40px;
+    width: 100%;
 }
 
 .project-actions button {
