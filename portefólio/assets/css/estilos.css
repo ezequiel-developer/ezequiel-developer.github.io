@@ -235,7 +235,8 @@ header {
 /* SESSÃO ABOUT - SOBRE MIM*/
 .about{
     min-height: 60vh;
-    padding-top: 50px;
+    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .about-text p {
