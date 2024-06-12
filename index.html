@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Definição do conjunto de caracteres -->
+    <meta charset="UTF-8">
+    <!-- Configuração da viewport para responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tag do autor da página -->
+    <meta name="author" content="Ezequiel Avelino">
+    <!-- Link para o ícone da página (favicon) -->
+    <link rel="icon" href="./assets/icons/logo-codigo.png" type="image/x-icon">
+    <!-- Título da página -->
+    <title>Ezequiel Avelino - Front-End</title>
+    <!-- Link para os ícones do Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Link para os ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link para o arquivo de estilos principal -->
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <!-- Link para o arquivo de estilos de media queries -->
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <!-- Link para o arquivo JavaScript -->
+    <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER - NAVBAR -->
+    <header class="header">
+        <nav class="nav">
+            <span class="logo">Portfólio</span>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+                <li class="nav-link"><a href="#home" class="actived js-link">Home</a></li>
+                <li class="nav-link"><a href="#sobre" class="js-link">Sobre</a></li>
+                <li class="nav-link"><a href="#certificacoes" class="js-link">Certificações</a></li>
+                <li class="nav-link"><a href="#projetos" class="js-link">Projetos</a></li>
+                <li class="nav-link"><a href="#contatos" class="js-link">Contatos</a></li>
+            </ul> <!--nav-list-->
+        </nav> <!--nav-->
+    </header> <!--header-->
+
+
+    <main> <!--MAIN - CONTEÚDO PRINCIPAL-->
+
+        <!--SESSÃO HEADLINE - HOME-->
+        <section class="headline" id="home">
+
+            <div class="box-headline-txt-infos hidden">
+
+                <h2 class="headline-subtitle">Olá, meu nome é Ezequiel </h2>
+                <h1 class="headline-title">Desenvolvedor <br> Front-End</h1>
+
+                <div class="infos">
+
+                    <a href="https://wa.me/5547999611833" target="_blank">
+                        <i class="uil uil-whatsapp"></i>
+                    </a>
+
+                    <a href="https://github.com/ezequiel-developer" target="_blank">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/ezequiel-avelino-developer-front-end/" target="_blank">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+
+                </div> <!--infos-->
+
+            </div> <!--box-headline-txt-infos-->
+
+            <div class="headline-banner hidden">
+                <img src="/assets/imagens/Ezequiel - foto - site.jpg" alt="Foto de Ezequiel">
+            </div> <!--headline-banner hidden-->
+
+        </section> <!-- FIM SESSÃO HEADLINE - HOME-->
+
+        <!-- SESSÃO ABOUT - SOBRE -->
+        <section class="about" id="sobre">
+
+            <div class="about-text hidden">
+
+                <h3>Sobre mim</h3>
+
+                <p>Sou um jovem com 24 anos, graduado em <strong>Administração</strong>. Atualmente estou
+                    cursando
+                    <strong>Sistemas para Internet</strong>, tenho dedicado meu tempo e energia ao estudo, com um
+                    foco especial na área de <strong>Tecnologia da Informação (T.I.)</strong>.
+                </p>
+
+                <p>Estou imerso no estudo do <strong>Frontend</strong>, explorando e praticando <strong>tecnologias</strong> fundamentais como
+                    <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Além disso, estou
+                    aprofundando meu conhecimento em <strong>frameworks</strong> e <strong>bibliotecas</strong>,
+                    para desenvolvimento <strong>interfaces de usuário</strong>, de forma  <strong>ágil</strong> e <strong>responsiva</strong>.
+                </p>
+
+                <p> Estou interessado em
+                    aprender a criar experiências de <strong>usuário intuitivas</strong>, buscando entender como as melhores práticas
+                    de <strong>design </strong> e <strong>usabilidade</strong> podem ser aplicadas em <strong>projetos</strong>.
+                </p>
+
+            </div> <!--about-text hidden-->
+
+            <div class="tech-icons">
+                <i class="fab fa-html5 hidden" style="color: orange; font-size: 2em;"></i>
+                <i class="fab fa-css3-alt hidden" style="color: blue; font-size: 2em;"></i>
+                <i class="fab fa-js hidden" style="color: yellow; font-size: 2em;"></i>
+                <i class="fab fa-bootstrap hidden" style="color: purple; font-size: 2em;"></i>
+                <i class="fab fa-react hidden" style="color: cyan; font-size: 2em;"></i>
+                <i class="fab fa-git hidden" style="color: red; font-size: 2em;"></i>
+            </div> <!--tech-icons hidden-->
+
+        </section> <!-- FIM SESSÃO ABOUT - SOBRE -->
+
+
+
+        <!-- SESSÃO ACADEMIC-EDUCATION - CERTIFICAÇÕES  -->
+        <section class="academic-education" id="certificacoes">
+
+            <div class="academic-course">
+                <h3>Formação Acadêmica</h3>
+
+                <div class="academic-course-content hidden">
+
+         
+                    <div class="card-education">
+                        <div class="card-education-image">
+                            <img src="assets/imagens/logo-uniavan.jpg" alt="logo universidade UNIAVAN">
+                        </div> <!--card-education-image-->
+                        <div class="card-education-text-button">
+                            <h5>Bacharelado em <br class="none"> Administração - UNIAVAN</h5>
+                            <p>jun de 2019 - jun de 2023</p>
+                            <button class="show-modal-education">Exibir Certificado</button>
+                        </div> <!--card-education-text-button-->
+                        <img class="certificate-img none" src="assets/imagens/diploma-bacharel-administracao.jpg" alt="Diploma Bacharel em Administração">
+                    </div> <!--card-education-->
+                    
+
+
+                    <div class="card-education">
+
+                        <div class="card-education-image">
+                            <img src="assets/imagens/logo-uniasselvi.png" alt="logo universidade UNIASSELVI">
+                        </div> <!--card-education-image-->
+
+                        <div class="card-education-text-button">
+                            <h5>Tecnólogo em Sistemas <br class="none"> para Internet - UNIASSELVI</h5>
+                            <p>fev de 2024 - jun de 2026</p>
+                            <button class="show-modal-education">Exibir Certificado</button>
+                        </div> <!--card-education-text-button-->
+                        <img class="certificate-img none" src="assets/imagens/carregando.jpg" alt="carregando em andamento curso">
+
+                    </div> <!--card-education-->
+
+                </div> <!--academic-course-content-->
+            </div> <!--academic-course-->
+
+            <div class="complementary-course">
+                <h3>Cursos complementares</h3>
+
+                <div class="complementary-course-content hidden">
+
+                    <div class="card-education">
+                        <div class="card-education-image">
+                            <img src="assets/imagens/logo-udemy.png" alt="logo Udemy Cursos">
+                        </div> <!--card-education-image-->
+
+                        <div class="card-education-text-button">
+                            <h5>Web Front-end <br class="none"> HTML, CSS e JS 128H</h5>
+                            <p>Verificação emitida: mar / 2024</p>
+                            <button class="show-modal-education">Exibir Certificado</button>
+                            <img class="certificate-img none" src="assets/imagens/certificado-web-frontend.jpg" alt="Certificado Web HTML, CSS, JS 128H">
+
+                        </div> <!--card-education-text-button-->
+
+                    </div> <!--card-education-->
+
+                    <div class="card-education">
+
+                        <div class="card-education-image">
+                            <img src="assets/imagens/logo-udemy.png" alt="logo Udemy Cursos">
+                        </div> <!--card-education-image-->
+
+                        <div class="card-education-text-button">
+                            <h5>Git e GitHub do <br class="none"> básico ao avançado 8H</h5>
+                            <p>Verificação emitida: mar / 2024</p>
+                            <button class="show-modal-education">Exibir Certificado</button>
+                            <img class="certificate-img none" src="assets/imagens/certificado-git.jpg" alt="Certificado Git e GitHub 8H">
+
+                        </div> <!--card-education-text-button-->
+
+                    </div> <!--card-education-->
+
+                    <div class="card-education">
+
+                        <div class="card-education-image">
+                            <img src="assets/imagens/logo-udemy.png" alt="logo Udemy Cursos">
+                        </div> <!--card-education-image-->
+
+                        <div class="card-education-text-button">
+                            <h5>Bootstrap5 <br class="none"> do básico ao avançado 16H</h5>
+                            <p>Verificação emitida: mai / 2024</p>
+                            <button class="show-modal-education">Exibir Certificado</button>
+                            <img class="certificate-img none" src="assets/imagens/certificado-bootstrap5.jpg" alt="Certificado Bootstrap5 16H">
+
+                        </div> <!--card-education-text-button-->
+
+                    </div> <!--card-education-->
+
+                    <div class="card-education">
+
+                        <div class="card-education-image">
+                            <img src="assets/imagens/logo-udemy.png" alt="logo Udemy Cursos">
+                        </div> <!--card-education-image-->
+
+                        <div class="card-education-text-button">
+                            <h5>JavaScript Completo 114H</h5>
+                            <p>Verificação emitida: jun / 2024</p>
+                            <button class="show-modal-education">Exibir Certificado</button>
+                            <img class="certificate-img none" src="assets/imagens/certificado-curso de javascript completo.jpg">
+
+                        </div> <!--card-education-text-button-->
+
+                    </div> <!--card-education-->
+
+                </div> <!--complementary-course-content-->
+            </div> <!--complementary-course-->
+
+            <div class="details-modal-certificate">
+                <div class="modal-content-certificate">
+                    <span class="close-modal-certificate">&times;</span>
+                    <img class="modal-certificate-image" src="" alt="Certificado">
+                </div>
+            </div> <!--details-modal-certificate-->
+
+
+        </section> <!-- FIM SESSÃO ACADEMIC-EDUCATION - CERTIFICAÇÕES  -->
+
+        <!-- BOX PROJECTS - PROJETOS -->
+        <section class="box-projects" id="projetos">
+
+            <h3>Projetos</h3>
+
+            <div class="projects-content">
+
+                <div class="card-project hidden">
+                    <div class="card-project-image">
+                        <img src="assets/imagens/landing-page-estofaria.png" alt="Imagem Landing Page Âncora">
+                        <div class="card-project-modal">
+
+                            <p>23 de maio/2024</p>
+                            <button class="show-modal-project">Ver mais</button>
+
+                            <div class="project-modal-content">
+
+                                <div class="project-txt">
+
+                                    <h4>Landing Page Âncora Estofaria</h4>
+
+                                    <p>Desenvolvi essa página como parte do meu processo de aprendizado em
+                                        desenvolvimento web.</p>
+
+                                    <p> Esse projeto foi desenvolvido com as seguintes ferramentas:</p>
+
+                                    <ul class="tools-list">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Bootstrap5</li>
+                                        <li>JavaScript</li>
+                                    </ul> <!--tools-list-->
+
+                                </div> <!--content-text-->
+
+                                <div class="box-video-and-buttons">
+
+                                    <div class="project-video">
+                                        <video controls>
+                                            <source src="assets/videos/LANDING PAGE ÂNCORA - APRESENTAÇÃO.mp4" type="video/mp4">
+                                            Seu navegador não suporta a tag de vídeo.
+                                        </video>
+                                    </div> <!--project-video-->
+
+                                    <div class="project-actions">
+                                       
+                                        <a href="#" target="_blank">
+                                            <button>Acessar Projeto</button>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <button>Acessar Repositório</button>
+                                        </a>
+                                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7199834626058596353/" target="_blank">
+                                            <button>Ver post no LinkedIn</button>
+                                        </a>
+                                        
+
+                                    </div> <!--project-actions-->
+
+                                </div> <!--box-video-and-buttons-->
+
+                            </div> <!--project-modal-content-->
+                        </div> <!--card-project-modal-->
+                        <div class="overlay">
+                            <p>Landing Page Âncora Estofaria</p>
+                        </div><!--overlay-->
+                    </div> <!--card-project-image-->
+                </div> <!--card-project hidden-->
+
+                <div class="card-project hidden">
+                    <div class="card-project-image">
+                        <img src="assets/imagens/previsao-do-tempo.png" alt="Imagem App Previsão do Tempo">
+                        <div class="card-project-modal">
+
+                            <p>19 de abril/2024</p>
+                            <button class="show-modal-project">Ver mais</button>
+
+                            <div class="project-modal-content">
+
+                                <div class="project-txt">
+
+                                    <h4>APP Previsão do Tempo</h4>
+
+                                    <p>O aplicativo fornece informações precisas e atualizadas sobre o clima em qualquer lugar do mundo. Além disso, utiliza a geolocalização do usuário para fornecer previsões personalizadas com base na sua localização atual
+                                    </p>
+
+                                    <p>Esse projeto foi desenvolvido com as seguintes ferramentas:</p>
+
+                                    <ul class="tools-list">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>API OpenWeatherMap</li>
+                                    </ul> <!--tools-list-->
+
+                                </div> <!--content-text-->
+
+                                <div class="box-video-and-buttons">
+
+                                    <div class="project-video">
+                                        <video controls>
+                                            <source src="assets/videos/APP PREVISÃO DO TEMPO - APRESENTAÇÃO.mp4" type="video/mp4">
+                                            Seu navegador não suporta a tag de vídeo.
+                                        </video>
+                                    </div> <!--project-video-->
+
+                                    <div class="project-actions">
+                                        
+                                        <a href="#" target="_blank">
+                                            <button>Acessar Projeto</button>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <button>Acessar Repositório</button>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <button>Ver post no LinkedIn</button>
+                                        </a>
+                                        
+
+                                    </div> <!--project-actions-->
+
+                                </div> <!--box-video-and-buttons-->
+
+                            </div> <!--project-modal-content-->
+                        </div> <!--card-project-modal-->
+                        <div class="overlay">
+                            <p>APP Previsão do Tempo</p>
+                        </div><!--overlay-->
+                    </div> <!--card-project-image-->
+                </div> <!--card-project hidden-->
+
+                <div class="card-project hidden">
+                    <div class="card-project-image">
+                        <img src="assets/imagens/projeto - to do list.png" alt="Imagem Projeto To do list">
+                        <div class="card-project-modal">
+
+                            <p>11 de abril/2024</p>
+                            <button class="show-modal-project">Ver mais</button>
+
+                            <div class="project-modal-content">
+
+                                <div class="project-txt">
+
+                                    <h4>To do List (lista de tarefas)</h4>
+
+                                    <p>Uma simples lista de tarefas, com o objetivo de explorar conceitos como manipulação do DOM, eventos de teclado, usabilidade e responsividade.</p>
+
+                                    <p> Esse projeto foi desenvolvido com as seguintes ferramentas:</p>
+
+                                    <ul class="tools-list">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                    </ul> <!--tools-list-->
+
+                                </div> <!--content-text-->
+
+                                <div class="box-video-and-buttons">
+
+                                    <div class="project-video">
+                                        <video controls>
+                                            <source src="assets/videos/TO DO LIST - APRESENTAÇÃO.mp4" type="video/mp4">
+                                            Seu navegador não suporta a tag de vídeo.
+                                        </video>
+                                    </div> <!--project-video-->
+
+                                    <div class="project-actions">
+                                     
+                                        <a href="#" target="_blank">
+                                            <button>Acessar Projeto</button>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <button>Acessar Repositório</button>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <button>Ver post no LinkedIn</button>
+                                        </a>
+
+                                    </div> <!--project-actions-->
+
+                                </div> <!--box-video-and-buttons-->
+
+                            </div> <!--project-modal-content-->
+                        </div> <!--card-project-modal-->
+                        <div class="overlay">
+                            <p>To do List (lista de tarefas)</p>
+                        </div><!--overlay-->
+                    </div> <!--card-project-image-->
+                </div> <!--card-project hidden-->
+
+                <div class="card-project hidden">
+                    <div class="card-project-image">
+                        <img src="assets/imagens/carregando.jpg" alt="carregando em breve">
+                        <div class="card-project-modal">
+
+                            <p>em breve</p>
+                            <button class="show-modal-project">Ver mais</button>
+
+                            <div class="project-modal-content">
+
+                                <div class="project-txt">
+
+                                    <h4>Em breve</h4>
+
+                                    <p></p>
+
+                                    <p> Esse projeto foi desenvolvido com as seguintes ferramentas:</p>
+
+                                    <ul class="tools-list">
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul> <!--tools-list-->
+
+                                </div> <!--content-text-->
+
+                                <div class="box-video-and-buttons">
+
+                                    <div class="project-video">
+                                        <video controls>
+                                            <source src="" type="video/mp4">
+                                            Seu navegador não suporta a tag de vídeo.
+                                        </video>
+                                    </div> <!--project-video-->
+
+                                    <div class="project-actions">
+                             
+                                        <a href="#" target="_blank">
+                                            <button>Acessar Projeto</button>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <button>Acessar Repositório</button>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <button>Ver post no LinkedIn</button>
+                                        </a>
+
+                                    </div> <!--project-actions-->
+
+                                </div> <!--box-video-and-buttons-->
+
+                            </div> <!--project-modal-content-->
+                        </div> <!--card-project-modal-->
+                        <div class="overlay">
+                            <p>em breve</p>
+                        </div><!--overlay-->
+                    </div> <!--card-project-image-->
+                </div> <!--card-project hidden-->
+
+                <div class="card-project hidden">
+                    <div class="card-project-image">
+                        <img src="assets/imagens/carregando.jpg" alt="carregando em breve">
+                        <div class="card-project-modal">
+
+                            <p>em breve</p>
+                            <button class="show-modal-project">Ver mais</button>
+
+                            <div class="project-modal-content">
+
+                                <div class="project-txt">
+
+                                    <h4>Em breve</h4>
+
+                                    <p></p>
+
+                                    <p> Esse projeto foi desenvolvido com as seguintes ferramentas:</p>
+
+                                    <ul class="tools-list">
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul> <!--tools-list-->
+
+                                </div> <!--content-text-->
+
+                                <div class="box-video-and-buttons">
+
+                                    <div class="project-video">
+                                        <video controls>
+                                            <source src="" type="video/mp4">
+                                            Seu navegador não suporta a tag de vídeo.
+                                        </video>
+                                    </div> <!--project-video-->
+
+                                    <div class="project-actions">
+                                     
+                                        <a href="#" target="_blank">
+                                            <button>Acessar Projeto</button>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <button>Acessar Repositório</button>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <button>Ver post no LinkedIn</button>
+                                        </a>
+
+                                    </div> <!--project-actions-->
+
+                                </div> <!--box-video-and-buttons-->
+
+                            </div> <!--project-modal-content-->
+                        </div> <!--card-project-modal-->
+                        <div class="overlay">
+                            <p>em breve</p>
+                        </div><!--overlay-->
+                    </div> <!--card-project-image-->
+                </div> <!--card-project hidden-->
+
+                <div class="card-project hidden">
+                    <div class="card-project-image">
+                        <img src="assets/imagens/carregando.jpg" alt="carregando em breve">
+                        <div class="card-project-modal">
+
+                            <p>em breve</p>
+                            <button class="show-modal-project">Ver mais</button>
+
+                            <div class="project-modal-content">
+
+                                <div class="project-txt">
+
+                                    <h4>Em breve</h4>
+
+                                    <p></p>
+
+                                    <p> Esse projeto foi desenvolvido com as seguintes ferramentas:</p>
+
+                                    <ul class="tools-list">
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul> <!--tools-list-->
+
+                                </div> <!--content-text-->
+
+                                <div class="box-video-and-buttons">
+
+                                    <div class="project-video">
+                                        <video controls>
+                                            <source src="" type="video/mp4">
+                                            Seu navegador não suporta a tag de vídeo.
+                                        </video>
+                                    </div> <!--project-video-->
+
+                                    <div class="project-actions">
+                                      
+                                        <a href="#" target="_blank">
+                                            <button>Acessar Projeto</button>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <button>Acessar Repositório</button>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <button>Ver post no LinkedIn</button>
+                                        </a>
+
+                                    </div> <!--project-actions-->
+
+                                </div> <!--box-video-and-buttons-->
+
+                            </div> <!--project-modal-content-->
+                        </div> <!--card-project-modal-->
+                        <div class="overlay">
+                            <p>em breve</p>
+                        </div><!--overlay-->
+                    </div> <!--card-project-image-->
+                </div> <!--card-project hidden-->
+
+                   <!-- Div para os detalhes do projeto em tela cheia -->
+                   <div class="details-modal-project">
+                    <div class="details-content-project">
+                        <button class="close-btn-project">X</button>
+                    </div> <!--details-content-project-->
+                </div> <!--details-modal-project-->
+
+            </div> <!--projects-content-->
+        </section> <!--  FIM BOX PROJECTS - PROJETOS -->
+
+    </main> <!-- FIM MAIN - CONTEÚDO PRINCIPAL-->
+
+    <!-- FOOTER - CONTATOS -->
+    <section class="footer-content" id="contatos">
+
+        <h3>contatos</h3>
+        <footer class="hidden">
+
+            <div class="contact">
+                <a href="https://wa.me/5547999611833" target="_blank">
+                    <i class="uil uil-whatsapp"></i>(47) 9 9961-1833
+                </a>
+            </div> <!--contact-->
+
+            <div class="contact">
+                <a href="https://github.com/ezequiel-developer" target="_blank">
+                    <i class="uil uil-github-alt"></i>ezequiel-developer
+                </a>
+            </div> <!--contact-->
+
+            <div class="contact">
+                <a href="https://www.linkedin.com/in/ezequiel-avelino-developer-front-end/" target="_blank">
+                    <i class="uil uil-linkedin"></i>/ezequiel-avelino <br> -developer-front-end
+                </a>
+            </div> <!--contact-->
+
+            <div class="contact">
+                <a href="mailto:ezequiel_avelino@hotmail.com">
+                    <i class="uil uil-envelope"></i>ezequiel_avelino<br>@hotmail.com
+                </a>
+            </div> <!--contact-->
+            
+
+    </section> <!--FIM FOOTER-CONTENT-->
+
+    <div class="footer-copyright">
+        <h5>Ezequiel Avelino</h5>
+        <p>©Todos os direitos reservados. 2024</p>
+    </div> <!--FOOTER COPYRIGHT-->
+
+    </footer> <!-- FIM FOOTER - CONTATOS -->
+
+</body> <!--FIM BODY-->
+
+</html>
