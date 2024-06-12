@@ -1,0 +1,366 @@
+@media (min-width: 768px) {
+
+    /* GERAL */
+    section {
+        margin: 0 50px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    /* HEADER - NAVBAR */
+    .logo {
+        font-size: 24px;
+    }
+
+    /* SESSÃO HEADLINE - HOME */
+    .headline-title {
+        font-size: 48px;
+        letter-spacing: 0;
+    }
+
+    .headline-subtitle {
+        font-size: 22px;
+        letter-spacing: 5px;
+    }
+
+    .headline-banner img {
+        height: 300px;
+    }
+
+    .infos {
+        margin-top: 10px;
+    }
+
+    .infos i {
+        color: white;
+        font-size: 44px;
+    }
+
+    /* ABOUT - SOBRE MIM */
+    .about {
+        flex-direction: row-reverse;
+        padding-top: 80px;
+    }
+
+    .about-text {
+        width: 900px;
+    }
+
+    .about-text p {
+        font-size: 24px;
+        line-height: 34px;
+        margin: 40px;
+    }
+
+    .tech-icons {
+        width: 350px;
+        font-size: 50px;
+        flex-direction: column;
+    }
+
+    /* ACADEMIC-EDUACTION / CERTIFICAÇÕES / FORMAÇÃO */
+    .academic-education {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .academic-course-content,
+    .complementary-course-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .card-education {
+        width: 47%;
+        height: 320px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-education-text-button h5 {
+        font-size: 22px;
+    }
+
+    .card-education-text-button p {
+        font-size: 18px;
+    }
+
+    .card-education-text-button button {
+        font-size: 20px;
+        width: 250px;
+    }
+
+    /* SESSÃO BOX-PROJECTS - PROJETOS */
+    .box-projects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .card-project {
+        width: 48%;
+    }
+
+    .overlay p {
+        font-size: 24px;
+    }
+
+    /* MODAL - CARD-PROJETOS - ABRE AO PASSAR O MAUSE */
+    .show-modal-project {
+        font-size: 20px;
+    }
+
+    .card-project-modal p {
+        font-size: 18px;
+    }
+
+    /* MODAL - CARD-PROJETOS - ABRE JANELA 
+    AO MEIO DA TELA AO CLICAR EM "VER MAIS" */
+   .project-modal-content {
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .details-content-project{
+        align-items: center;
+        height: 60%
+    }
+
+    .project-txt{
+        padding-right: 20px;
+    }
+
+    .project-modal-content h4 {
+        font-size: 28px;
+    }
+
+    .project-modal-content p,
+    .project-modal-content ul li {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .project-txt,
+    .box-video-and-buttons {
+        width: 100%;
+    }
+
+    .project-video video {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .project-actions {
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .project-actions button {
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /* FOOTER */
+    footer {
+        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+        padding-top: 100px;
+    }
+
+    footer #contatos {
+        min-height: 60vh;
+    }
+
+    .footer-content {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        justify-content: center;
+        gap: 0;
+        height: 50vh;
+    }
+
+    .contact {
+        margin: 20px 0;
+    }
+
+    .contact p {
+        font-size: 18px;
+    }
+
+    .footer-copyright {
+        padding: 70px 0;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* HEADER - NAVBAR - DESKTOP */
+    .header {
+        z-index: 999999999;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav {
+        width: 100%;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .nav-list {
+        display: flex;
+        position: static;
+        width: auto;
+        height: auto;
+        background: none;
+        clip-path: none;
+        flex-direction: row;
+        justify-content: flex-end;
+        pointer-events: auto;
+        padding: 0;
+    }
+
+    .nav-list li {
+        margin-left: 40px;
+    }
+
+    .nav-list a {
+        font-size: 16px;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        opacity: 1;
+        padding: 10px;
+    }
+
+    /* SESSÃO HEADLINE - HOME */
+    .headline {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    /* SESSÃO ACADEMIC-EDUCATION - CERTIFICAÇÕES  */
+    .card-education {
+        flex-direction: row;
+        height: 180px;
+    }
+
+    /* SESSÃO BOX-PROJECTS - PROJETOS */
+    .card-project {
+        width: 48%;
+    }
+
+    .project-actions{
+        flex-direction: row;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    /* ABOUT - SOBRE MIM */
+    .about-text p {
+        font-size: 18px;
+    }
+
+    /* SESSÃO ACADEMIC-EDUCATION - CERTIFICAÇÕES  */
+    .academic-course-content .card-education {
+        width: 48%;
+    }
+
+    .card-education {
+        height: 140px;
+        width: 31%;
+    }
+
+    .card-education-text-button h5 {
+        font-size: 18px;
+    }
+
+    .card-education-text-button p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .card-education-text-button button {
+        font-size: 16px;
+        width: 180px;
+        font-weight: bold;
+    }
+
+    .card-education-image img {
+        height: 70px;
+    }
+
+    /* /* SESSÃO BOX-PROJECTS - PROJETOS */
+    .card-project {
+        width: 32%;
+    }
+
+    .overlay p {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    /* MODAL - CARD-PROJETOS - ABRE AO PASSAR O MAUSE */
+    .card-project-modal p {
+        font-size: 16px;
+    }
+
+    .show-modal-project {
+        font-size: 16px;
+    }
+
+    /* MODAL - CARD-PROJETOS - ABRE JANELA 
+    AO MEIO DA TELA AO CLICAR EM "VER MAIS" */
+    .details-content-project{
+        align-items: center;
+        height: 70%;
+    }
+
+    .project-modal-content h4 {
+        font-size: 18px;
+    }
+
+    .project-modal-content p,
+    .project-modal-content ul li {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+
+    .project-video video{
+       width: 100%;
+       height: 300px;
+    }
+
+    .project-actions button {
+        font-size: 16px;
+    }
+
+}
