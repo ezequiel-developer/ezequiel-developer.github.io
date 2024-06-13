@@ -620,6 +620,7 @@ AO MEIO DA TELA AO CLICAR EM "VER MAIS" */
     border-radius: 16px;
     color: white;
     cursor: pointer;
+    width: 100%;
 }
 
 .project-actions button:hover {
